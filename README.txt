@@ -1,0 +1,1 @@
+This is my first time using Git. I mostly wanted to use it to read my code at work or anywhere when my laptop was not accessible. This contains only some random and fairly common codes and some topcoder problem solutions on Dynamic programming tutorials.
