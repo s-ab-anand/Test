@@ -24,7 +24,6 @@ vector <int> FlowerGarden::getOrdering(vector <int> height, vector <int> bloom, 
 {
     vector<int> arrange (height.size());
     vector<int> arrange1(height.size());
-    //cout<<"ha";
     int size=height.size();
 
     arrange1=recur(height, bloom, wilt, 1, arrange);
@@ -79,10 +78,7 @@ vector<int> recur(vector <int> height, vector <int> bloom, vector <int> wilt, in
 }
 int main()
 {
-    //string str;
-    //int n=0;
-    //vector<int> dont;
-    //int length=10;
+    
     int height1[]={5,4,3,2,1};
     int bloom1[]={1,1,1,1,1};
     int wilt1[]={365,365,365,365,365};
